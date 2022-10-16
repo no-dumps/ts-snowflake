@@ -1,0 +1,10 @@
+.idea/
+coverage/
+node_modules/
+src/
+tests/
+.gitignore
+docker-compose.yaml
+Dockerfile
+jest.config.ts
+tsconfig.json
