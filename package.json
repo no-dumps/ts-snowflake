@@ -2,6 +2,11 @@
   "name": "@n-oouchi/ts-snowflake",
   "version": "0.1.0",
   "description": "64bit unique id generator",
+  "homepage": "https://github.com/no-dumps/ts-snowflake",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/no-dumps/ts-snowflake.git"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "dependencies": {
