@@ -28,5 +28,15 @@
     "dev": "npx ts-node-dev --respawn src/index.ts"
   },
   "author": "Naoki Oouchi",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "typescript",
+    "snowflake",
+    "unique",
+    "id",
+    "generator",
+    "64-bit",
+    "id",
+    "generator"
+  ]
 }
