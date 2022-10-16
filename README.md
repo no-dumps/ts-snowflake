@@ -4,6 +4,12 @@ ts-snowflake is generate time based 64bit unique id.
 
 Implementation of Snowflake concept.
 
+# Installation
+
+```shell
+npm i @n-oouchi/ts-snowflake
+```
+
 # Usage
 
 ```typescript
