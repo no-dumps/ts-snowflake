@@ -1,0 +1,20 @@
+name: CI
+
+on:
+  push:
+    branches:
+     - main
+    
+jobs:
+  build:
+    runs-on: ubunts-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Setup NodeJs
+        uses: actions/setup-node@v1
+        with:
+          node-version: '16.x'
+      - name: Install Dependencies
+        run: npm install
+      - name: Run test
+        run: npm test
