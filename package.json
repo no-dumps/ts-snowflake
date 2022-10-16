@@ -1,7 +1,7 @@
 {
   "name": "@n-oouchi/ts-snowflake",
   "version": "0.1.0",
-  "description": "63bit unique id generator",
+  "description": "64bit unique id generator",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "dependencies": {
